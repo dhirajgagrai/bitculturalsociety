@@ -574,14 +574,17 @@ background: rgb(230, 230, 255);
 #contact a:hover{
 	color:#009933;
 }	
-.fa-facebook:hover{
-	color:#0066ff;
+.fa-facebook{
+	color:#3b5998;
 }
-.fa-youtube-play:hover{
-	color:#ff0000;
+.fa-youtube-play{
+	color:#c4302b;
 }
-.fa-instagram:hover{
-	color:#ff0066;
+.fa-instagram{
+	color:#E4405F;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-youtube-play:hover{
+	color:#111;
 }
 
 /* Add a dark background color to the footer */
