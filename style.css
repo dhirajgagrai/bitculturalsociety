@@ -562,11 +562,26 @@ background: rgb(230, 230, 255);
 #contact{
 	background-image:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),url(images/contact.jpg);
 	background-size:cover;
-	 filter: grayscale(100%);
+	 
 	color:#111;		
 }
 #contact p{
 	font-size:16px;
+}
+#contact a{
+	color:#111;
+}
+#contact a:hover{
+	color:#009933;
+}	
+.fa-facebook:hover{
+	color:#0066ff;
+}
+.fa-youtube-play:hover{
+	color:#ff0000;
+}
+.fa-instagram:hover{
+	color:#ff0066;
 }
 
 /* Add a dark background color to the footer */
